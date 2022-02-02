@@ -53,7 +53,7 @@ public class Main {
     }
   }
 
-  private boolean isOutBorder(int ny, int nx) {
+  private static boolean isOutBorder(int ny, int nx) {
     return (
       ny < 0 ||
       nx < 0 ||
